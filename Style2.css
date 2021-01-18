@@ -1,18 +1,17 @@
 body {
     padding: 0;
     margin: 0;
-    background: url("./yasuob.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background: url("./yasuob.jpg") no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
 
 }
 
 
 .tarjeta-de-perfil {
     width: 600px;
-    background: white;
+    background: rgba(255, 255, 255, 0.452);
     margin: 50px auto;
     padding: 20px
 }
@@ -40,15 +39,16 @@ body {
     height: 187px;
 
 } 
-.tarjeta-de-perfil .caja-de-informacion .foto-de-perfil img{
-    
-    width: 50%;
-    border-radius: 50%;
+.tarjeta-de-perfil .caja-de-informacion .foto-de-perfil .foto{
+    position: absolute;
+    width: 130px;
+    border-radius: 60%;
+    height: 80%;
 }
 .tarjeta-de-perfil .caja-de-informacion .foto-de-perfil .icono-de-imagen{
     position: absolute;
-    bottom: 10%;
-    right: 0;
+    bottom: 20%;
+    right: 20px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
